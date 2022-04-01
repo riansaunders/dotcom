@@ -114,9 +114,10 @@ export default function Home() {
               </h2>
 
               <p className="mt-2 text-sm text-white/60">
-                I'm a code weaver who loves engineering solutions. I've been at
-                it since 2007 and been involved with many industries such as
-                gaming(mmorpg), finance, and ecommerce to name a few.
+                I'm a code weaver who loves engineering solutions. I've been
+                doing so for over a decade. Recently completed a fulfilling
+                journey with a startup and looking to take the next step in my
+                career.
               </p>
               <div className={"mt-6"} />
 
