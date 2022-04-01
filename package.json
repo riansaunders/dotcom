@@ -1,0 +1,32 @@
+{
+  "name": "riansaunderscom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^4.5.7",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "@mailchimp/mailchimp_transactional": "^1.0.47",
+    "axios": "^0.19.2",
+    "dotenv": "^8.6.0",
+    "formik": "^2.2.9",
+    "next": "^12.1.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3"
+  }
+}
