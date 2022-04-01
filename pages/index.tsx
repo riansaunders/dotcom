@@ -8,7 +8,7 @@ import axios from "axios";
 import { ErrorMessage, Field, Form, Formik, useFormikContext } from "formik";
 import Link from "next/link";
 import { useState } from "react";
-import { Accent } from "../src/components/accent";
+
 import { Footer } from "../src/components/footer";
 import { Page } from "../src/components/page";
 import { ShowcaseCard } from "../src/components/showcase-card";
@@ -104,7 +104,9 @@ export default function Home() {
             <div
               className={"pb-4 md:pb-0 col-span-2 md:col-span-1 animate-fadeIn"}
             >
-              <Accent color="4bacfc" />
+              <div
+                className={`rounded-md ml-1 w-16 border-4   border-[#4bacfc]`}
+              />
               <h2
                 className={
                   "text-6xl md:text-7xl mb-3 before:underline font-semibold"
@@ -140,7 +142,7 @@ export default function Home() {
 
         <section className={"mt-14"} id="my-work">
           <div className={"mt-4"} />
-          <Accent color="fcdc4d" />
+          <div className={`rounded-md ml-1 w-16 border-4   border-[#fcdc4d]`} />
           <div className={"p-3"}>
             <h2 className=" text-3xl  font-semibold">
               <SparklesIcon
@@ -241,7 +243,8 @@ export default function Home() {
 
         <section className={"mt-40"} id="contact">
           <div className={"mt-4"} />
-          <Accent color="018E42" />
+          <div className={`rounded-md ml-1 w-16 border-4   border-[#018E42]`} />
+
           <div className={"p-3 mb-4"}>
             <h2 className=" font-semibold text-3xl">
               <ChatIcon

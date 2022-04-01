@@ -42,7 +42,7 @@ export default function AlgorithmsPage({
   return (
     <Page>
       <div className={"mt-8"}>
-        <Accent color={"4bacfc"} />
+        <div className={`rounded-md ml-1 w-16 border-4   border-[#4bacfc]`} />
 
         <h2 className={"text-3xl font-semibold"}>
           <CodeIcon
